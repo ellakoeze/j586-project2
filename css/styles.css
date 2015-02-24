@@ -1,0 +1,221 @@
+
+body{
+    color: black;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+    
+    transition: opacity 1s ease-in-out;
+    background-color: #303D9A;
+    box-shadow: 0 0 0 2px #ddd;
+}
+
+.map {
+    height: 0;
+    width: 75%;
+    padding-top: 25%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  
+    
+}
+
+h1 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3em !important;
+    color: black;
+    
+}
+
+hr {
+    margin: 0;
+    margin-bottom: -.4px;
+}
+
+svg {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 400px;
+}
+
+
+.info-text{
+    text-align: left;
+    z-index: 20;
+    position: absolute;
+    top: 20px;
+    margin-left: 100px;
+    
+    display: inline-block;
+     white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+   
+    
+}
+
+.text-bubble {
+    background-color: #ACB1D7;
+    padding: 10px;
+    border-radius: .25em;
+}
+
+.cbp-fwslider nav span{
+    color: #303D9A;
+    background: none;
+}
+
+.cbp-fwslider nav span:hover{
+    background: #ACB1D7;
+    color: #fff;
+    
+}
+
+.clearfix{
+    color: #303D9A;
+}
+
+.date {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-image: url(../images/vertical-stripes.png);
+    background-repeat: repeat-x;
+    /*background-color: #485BE6;*/
+    color: #fff;
+}
+
+
+
+iframe.quiz{
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    
+}
+
+.slider-content {
+    
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 20px;
+    /*border: 1px solid black;*/
+    overflow: hidden; /* add this to contain floated children */
+    white-space: normal;      /* CSS3 */      
+    word-wrap: break-word;      /* IE */
+    line-height: 25px;
+    
+}
+.left {
+    width: 40%;
+    float:left; /* add this */
+    /*border: 1px solid red;*/
+}
+.right {
+    width: 50%;
+    /*border: 1px solid green;*/
+    float: right; /* add this */
+    text-align: left;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+
+.quote{
+    
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/amendment-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#subtitle {
+    font-family: 'Just Another Hand', cursive;
+    color: black;
+    letter-spacing: 10px;
+    
+}
+
+.subtitle {
+    font-family: 'Just Another Hand', cursive;
+    color: black;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-top: 0px;
+}
+
+
+#nc {
+    
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    z-index: -4;
+    max-width: 700px;
+   
+}
+
+#first-slide{
+    
+    z-index: 4;
+    position: relative;
+    top: 10px;
+    width: 75%;
+  
+    margin: 0 auto;
+    line-height: 28px;
+    text-align: left;
+    
+  
+    
+    
+}
+
+#amendment{
+   
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+#forrester{
+    padding-top: 30px;
+}
+
+@media only screen and (max-width : 768px) {
+
+
+.left{
+    float: none;
+    width: 100%;
+}
+.right{
+    float: none;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.date{
+    color: #000;
+}
+
+.quote{
+    
+    background-image: url(../images/amendment-1.svg);
+    height: 200px;
+    width: 100%;
+    background-position: right;
+  
+}
+
+
+}
