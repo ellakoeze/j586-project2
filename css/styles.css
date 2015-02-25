@@ -96,7 +96,7 @@ a:hover{
    white-space: -pre-wrap;     /* Opera <7 */   
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;      /* IE */
-   line-height: 25px;
+ 
    
     
 }
@@ -196,22 +196,23 @@ iframe.quiz{
 }
 
 
-.blue-number{
-    font-family: 'Just Another Hand', cursive;
-    color: #303D9A;
-    font-size: 24pt;
+.chart{
     display: inline-block;
-    padding: 10px;
-    letter-spacing: 2px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    
 }
 
-.red-number{
-    font-family: 'Just Another Hand', cursive;
-    color: #B42214;
-    font-size: 24pt;
-    display: inline-block;
-    padding: 10px;
-    letter-spacing: 2px;
+.chart img {
+    width: 300px;
+}
+
+.chart-right{
+    float: right;
+}
+ 
+.chart-left{
+    float: left;
 }
 
 .happy {
@@ -221,6 +222,11 @@ iframe.quiz{
     letter-spacing: 3px;
      white-space: normal;      /* CSS3 */      
     word-wrap: break-word;      /* IE */
+}
+
+.happy iframe{
+    width: 480px;
+    height: 270px; 
 }
 
 .ellipses{
@@ -253,7 +259,7 @@ iframe.quiz{
 #nc {
     
     position: absolute;
-    top: 335px;
+    top: 345px;
     left: 350px;
     /*z-index: -4;*/
     max-width: 500px;
@@ -277,6 +283,11 @@ iframe.quiz{
 #slide-2 {
     width: 65%;
     padding-top: 25px;
+}
+
+#amendment{
+    margin-top: 40px;
+    margin-left: 60px;
 }
 
 #slide-3 {
@@ -314,6 +325,11 @@ iframe.quiz{
     
 }
 
+#ucc {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 75px;
+}
 
 /*media queries for small sizes*/
 
@@ -334,14 +350,6 @@ iframe.quiz{
     color: #000;
 }
 
-.quote{
-    
-    background-image: url(../images/amendment-1.svg);
-    height: 200px;
-    width: 100%;
-    background-position: right;
-  
-}
 
 
 
@@ -439,8 +447,31 @@ h1 {
     width: 300px;
 }
 
-.happy{
+.happy iframe{
     width: 300px;
+    height: auto;
+}
+
+.chart-right{
+    float: none;
+}
+ 
+.chart-left{
+    float: none;
+}
+
+#ucc {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+#amendment{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 }
