@@ -131,7 +131,7 @@ a:hover{
 
 iframe.quiz{
     width: 80%;
-    height: 500px;
+    height: 490px;
     display: block;
     margin: 0 auto;
     border: none;
@@ -203,16 +203,20 @@ iframe.quiz{
     
 }
 
+
+
 .chart img {
     width: 300px;
 }
 
 .chart-right{
     float: right;
+    margin-right: 100px;
 }
  
 .chart-left{
     float: left;
+    margin-left: 100px;
 }
 
 .happy {
@@ -329,6 +333,19 @@ iframe.quiz{
     width: 300px;
     margin-top: 40px;
     margin-left: 75px;
+}
+
+#quiz-title{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 24pt;
+    margin-left: 145px;
+    white-space: normal;      /* CSS3 */      
+    word-wrap: break-word;      /* IE */
+}
+
+#quiz-sub{
+    padding-left: 10px;
 }
 
 /*media queries for small sizes*/
@@ -454,10 +471,12 @@ h1 {
 
 .chart-right{
     float: none;
+    margin: 0;
 }
  
 .chart-left{
     float: none;
+    margin: 0;
 }
 
 #ucc {
@@ -473,5 +492,13 @@ h1 {
     margin-right: auto;
     width: 90%;
 }
+
+#quiz-title{
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+
+
 
 }
